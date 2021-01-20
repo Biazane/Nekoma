@@ -7,16 +7,8 @@
     h2 {
         font-size: 30px;
     }
-
-    @media (min-width: 320px) and (max-width: 480px) {
-  
-        /* CSS */
-        #Animes-section a {
-            width: auto;
-            height: 30px;
-        }
-        
-      }
+     
+    
 
     /* navbar */
     #navbar {
@@ -174,7 +166,7 @@
         color: rgb(145, 21, 21);
     }
 
-    /* jobs */
+    /* Animes */
 
 #Animes-section {
     text-align: center;
@@ -195,7 +187,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 1300px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -204,7 +196,8 @@
     flex: 1 1 300px;
     margin-left: 25px;
     margin-right: 25px;
-    height: 400px;
+    height: 600px;
+    width: 200px;
     background-size: cover;
     border-right: 4px solid rgb(39, 38, 35);
     border-bottom: 4px solid rgb(39, 38, 35);
@@ -212,6 +205,11 @@
     border-left: 4px solid  rgb(39, 38, 35);
     
 }
+
+
+#Animes-section p {
+    margin-bottom: 4rem;
+  }
 
 .anime1 {
     background-image: url(../img/sao.jpg)
@@ -274,3 +272,245 @@ footer {
   footer .detail {
     font-weight: bold;
   }
+
+  
+    /* CSS */
+
+    @media (max-width: 450px) {
+
+        /* html - 18px -> 1rem, 1.2rem -> 18px */
+
+        /* geral */
+        p, input, textarea{
+        font-size: 1.2rem;
+    
+
+    /* navbar */ 
+   
+    }
+
+    #navbar img {
+        top: 9px;
+    }
+
+    #navbar ul {
+        margin-top: 1.1 rem; /* root element */
+    }
+
+    /* banner */
+
+    #main-banner {
+        height: 75vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+
+    #banner-info {
+        width: 60%;
+    }
+
+    #banner-info p {
+        margin: 0;
+        width: auto;    
+    }
+
+    /* about */
+    #about-section {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 65px;
+    }
+
+    /* skill */
+    #skills-section {
+        margin-top: -35px;
+        width: 90%;
+    }
+
+    #skills-section .container {
+        flex-direction: column;
+    }
+
+    .skills-container h3, .skills-container .subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .skills-container {
+        padding: 25px;
+    }
+
+    .skills-container .central {
+        border-top: 1px solid #CCC; 
+        border-bottom: 1px solid #CCC;
+    }
+
+    #Animes-section a {
+        width: auto;
+        height: 30px;
+    }
+
+    /* animes */
+
+    #animes-section h2, #animes-section p {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Animes-container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .Animes-box {
+        margin-bottom: 2rem;
+        flex: 1 1 500px;
+        
+    }
+
+    #Animes-section p {
+        margin-bottom: 5rem;
+      }
+      /* footer*/
+      footer {
+          padding: 50px 15px;
+      }
+
+      footer form {
+          width: 100%;
+      }
+    }
+
+
+
+
+
+    @media (max-width: 320px) {
+
+        /* html - 18px -> 1rem, 1.2rem -> 18px */
+
+        /* geral */
+        p, input, textarea{
+        font-size: 1.2rem;
+    
+
+    /* navbar */ 
+   
+    }
+
+    #navbar img {
+        top: 9px;
+    }
+
+    #navbar ul {
+        margin-top: 1.1 rem; /* root element */
+    }
+
+    #navbar h2 {
+        display: none;
+    }
+
+    /* banner */
+
+    #main-banner {
+        height: 70vh;
+        padding-top: 3vh;
+        padding-bottom: 10px;
+    }
+
+    #banner-info {
+        width: 60%;
+    }
+
+    #banner-info p {
+        margin: 0;
+        width: auto;    
+    }
+
+     h1 {
+        font-size: 25px;
+    }
+
+    
+
+    /* about */
+    #about-section {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 65px;
+    }
+
+    /* skill */
+    #skills-section {
+        margin-top: -35px;
+        width: 90%;
+    }
+
+    #skills-section .container {
+        flex-direction: column;
+    }
+
+    .skills-container h3, .skills-container .subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .skills-container {
+        padding: 25px;
+    }
+
+    .skills-container .central {
+        border-top: 1px solid #CCC; 
+        border-bottom: 1px solid #CCC;
+    }
+
+    #Animes-section a {
+        width: auto;
+        height: 30px;
+    }
+
+    /* animes */
+
+    #animes-section h2, #animes-section p {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Animes-container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .Animes-box {
+        margin-bottom: 2rem;
+        flex: 1 1 400px;
+        
+    }
+
+    #Animes-section p {
+        margin-bottom: 4rem;
+      }
+
+      #Animes-section p {
+          margin-right: auto;
+      }
+      .Animes-box {
+        flex: 1 1 400px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 700px;
+        background-size: cover;
+        border-right: 4px solid rgb(39, 38, 35);
+        border-bottom: 4px solid rgb(39, 38, 35);
+        border-top: 4px solid  rgb(39, 38, 35);
+        border-left: 4px solid  rgb(39, 38, 35);
+    }
+      /* footer*/
+      footer {
+          padding: 50px 15px;
+      }
+
+      footer form {
+          width: 100%;
+      }
+    }
+
+    
